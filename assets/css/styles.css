@@ -1,0 +1,76 @@
+h1.myName {
+    background-color: #ffff80;
+    font-size: 26px;    
+}
+
+h1 {
+    font-size: 22px;
+    color: black;
+}
+
+.specialFont {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+
+a.link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+footer {    
+    color: black;
+    background-color: #ffff80;
+}
+
+
+.profilePic {
+    float: left;
+    width: 33%;
+    border-radius: 2px;
+}
+
+p.portfolioP {
+    background-color: #ffff80;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+    padding: 8px;
+    
+}
+
+body {
+    background-color:#e6e6ff;
+    /* height: 100%; */
+}
+
+
+@media screen and (max-width: 575px) {
+    .myLinks {
+        justify-content: center;
+        align-items: center;
+    }
+    .profilePic {
+        float: left;
+        padding: 0 15px 15px 0;
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 640px) {
+    
+
+    .profilePic {
+        float: left;
+        padding: 0 15px 15px 0;
+        width: 100%;
+    }
+  
+}
